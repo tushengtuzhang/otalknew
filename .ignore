@@ -1,0 +1,6 @@
+# IDE Setting Directory
+#-------------------------
+.idea/*
+*.iml
+
+logs/*
