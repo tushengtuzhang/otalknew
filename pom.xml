@@ -7,13 +7,14 @@
     <groupId>com.yglink</groupId>
     <artifactId>otalknew</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>${otalk.version}</version>
     <modules>
         <module>otalk-config</module>
         <module>otalk-eureka</module>
         <module>otalk-auth</module>
         <module>otalk-common</module>
         <module>otalk-modules</module>
+        <module>otalk-gateway</module>
     </modules>
 
     <properties>
