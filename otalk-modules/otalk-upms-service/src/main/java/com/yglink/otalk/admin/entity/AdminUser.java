@@ -17,6 +17,8 @@ public class AdminUser extends BaseEntity<AdminUser> {
     private String password;
     private String salt;
 
+    private Integer companyId;
+
     @TableField(exist = false)
     private String noColumn;
 
