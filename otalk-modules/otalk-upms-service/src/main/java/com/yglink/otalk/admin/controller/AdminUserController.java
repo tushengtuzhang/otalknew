@@ -5,6 +5,8 @@ import com.yglink.otalk.admin.entity.AdminUser;
 import com.yglink.otalk.admin.service.AdminUserService;
 import com.yglink.otalk.common.util.ReturnVO;
 import com.yglink.otalk.common.web.BaseController;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -22,6 +24,8 @@ public class AdminUserController extends BaseController {
 
     @ResponseBody
     @GetMapping("/get")
+    @ApiOperation(value = "查询用户", notes = "根据ID查询用户")
+    @ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "int")
     public ReturnVO<AdminUser> get(Integer id){
         AdminUser adminUser = adminUserService.selectById(id);
         return ReturnVO.OK(adminUser);

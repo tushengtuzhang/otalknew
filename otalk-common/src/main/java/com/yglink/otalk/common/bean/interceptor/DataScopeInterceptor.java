@@ -20,8 +20,7 @@ import java.util.Map;
 import java.util.Properties;
 
 /**
- * @author lengleng
- * @date 2018/1/19
+ * @author zhangtusheng
  * 数据权限插件，guns
  */
 @Slf4j

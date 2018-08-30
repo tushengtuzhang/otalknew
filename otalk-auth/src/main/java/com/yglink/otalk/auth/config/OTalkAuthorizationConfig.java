@@ -97,8 +97,8 @@ public class OTalkAuthorizationConfig extends AuthorizationServerConfigurerAdapt
      * tokenstore 定制化处理
      *
      * @return TokenStore
-     * 1. 如果使用的 redis-cluster 模式请使用 PigRedisTokenStore
-     * PigRedisTokenStore tokenStore = new PigRedisTokenStore();
+     * 1. 如果使用的 redis-cluster 模式请使用 OTalkRedisTokenStore
+     * OTalkRedisTokenStore tokenStore = new OTalkRedisTokenStore();
      * tokenStore.setRedisTemplate(redisTemplate);
      */
     @Bean

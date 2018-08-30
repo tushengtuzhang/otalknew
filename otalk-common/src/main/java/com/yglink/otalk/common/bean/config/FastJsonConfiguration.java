@@ -1,4 +1,4 @@
-package com.yglink.otalk.admin.common.config;
+package com.yglink.otalk.common.bean.config;
 
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;

@@ -13,7 +13,7 @@
     <version>${otalk.version}</version>
     <packaging>jar</packaging>
 
-    <name>pig-common</name>
+    <name>otalk-common</name>
     <description>common</description>
 
     <dependencies>

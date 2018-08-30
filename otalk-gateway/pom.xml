@@ -13,7 +13,7 @@
     <version>${otalk.version}</version>
     <packaging>jar</packaging>
 
-    <name>pig-gateway</name>
+    <name>otalk-gateway</name>
     <description>服务网关</description>
 
     <dependencies>

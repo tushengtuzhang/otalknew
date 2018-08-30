@@ -11,8 +11,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import org.springframework.stereotype.Component;
 
 /**
- * @author lengleng
- * @date 2018/1/9
+ * @author zhangtusheng
  * 手机号登录配置入口
  */
 @Component

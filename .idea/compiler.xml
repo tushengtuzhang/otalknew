@@ -10,6 +10,7 @@
         <module name="otalk-common" />
         <module name="otalk-config" />
         <module name="otalk-eureka" />
+        <module name="otalk-gateway" />
         <module name="otalk-upms-service" />
       </profile>
     </annotationProcessing>

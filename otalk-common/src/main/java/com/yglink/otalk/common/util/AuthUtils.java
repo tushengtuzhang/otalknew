@@ -9,8 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
 /**
- * @author lengleng
- * @date 2018/5/13
+ * @author zhangtusheng
  * 认证授权相关工具类
  */
 @Slf4j
