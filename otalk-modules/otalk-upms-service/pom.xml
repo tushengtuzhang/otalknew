@@ -5,7 +5,7 @@
     <parent>
         <artifactId>otalk-modules</artifactId>
         <groupId>com.yglink</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>${otalk.version}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -19,7 +19,7 @@
         <dependency>
             <groupId>com.yglink</groupId>
             <artifactId>otalk-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${otalk.version}</version>
         </dependency>
         <!--MySQL-->
         <dependency>
